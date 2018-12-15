@@ -1,17 +1,17 @@
 <template>
-  <v-app>
-    <v-toolbar app>
-      <v-toolbar-title class="headline text-uppercase">
-        <span>Vuetify</span>
-        <span class="font-weight-light">MATERIAL DESIGN</span>
-      </v-toolbar-title>
-      <v-spacer></v-spacer>
-      <v-btn
-        flat
-        href="https://github.com/vuetifyjs/vuetify/releases/latest"
-        target="_blank"
+<v-app>
+  <v-toolbar app>
+    <v-toolbar-title class="headline">
+      <span>Try Bluetooth</span>
+    </v-toolbar-title>
+    <v-spacer></v-spacer>
+    <v-btn
+      href="https://github.com/kayhide/try-bluetooth"
+      target="_blank"
+      class="mr-2"
+      flat icon
       >
-        <span class="mr-2">Latest Release</span>
+        <v-icon>home</v-icon>
       </v-btn>
     </v-toolbar>
 
